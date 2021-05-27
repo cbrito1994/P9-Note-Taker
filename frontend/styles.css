@@ -76,3 +76,19 @@ body {
   padding: 20px;
   cursor: pointer;
 }
+
+.note-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.note-li h4 {
+  flex: 1;
+}
+
+.inputs-area {
+  display: flex;
+  flex-direction: column;
+}
